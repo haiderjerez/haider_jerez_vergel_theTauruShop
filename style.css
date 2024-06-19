@@ -82,3 +82,24 @@ body{
     width: 25vw;
     height: 30vh
 }
+.buy-buton{
+    text-align: center;
+}
+.buy-button{
+    background-color: #b0957f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.buy-button:hover{
+    background-color: #b0957f;
+    transform: scale(1.05);
+}
+.buy-button:active{
+    background-color: aquamarine;
+    transform: scale(0.95);
+}
